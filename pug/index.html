@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Prototipo</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <div class="menu">
+                <ul id="menu">
+                    <li> <a class="enlaceboton" href="primernivel.html">Catalogo</a></li>
+                    <li> <a class="enlaceboton">Seleccion de tempotada</a></li>
+                    <li> <a class="enlaceboton">Promociones</a></li>
+                    <li> <a class="enlaceboton">Conocenos</a></li>
+                    <li> <a class="enlaceboton" href="contacto.html">Contacto</a></li>
+                    <li> <a class="enlaceboton" href="registro.html">Identificate</a></li>
+                    <li><input type="text" name="buscador"></li>
+                    <li> <select id="idioma">
+                            <option value="Español">Es </option>
+                            <option value="Ingles">En</option>
+                        </select></li>
+                </ul><img id="banner" src="img/banner.png">
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div id="anuncios">
+            <p id="texto">SITIO PARA ANUNCIOS</p>
+        </div>
+        <div id="productospopulares">
+            <p id="popularestitulo">PRODUCTOS POPULARES</p>
+            <ul id="populares">
+                <li>
+                    <div onclick="location.href='segundonivel.html';" class="imagenesproductos"><img class="productos" src="img/pepino.jpeg">
+                        <p class="descripciones">Pepino pepinorro de pepinolandia con sabor a pepino</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="imagenesproductos"><img class="productos" src="img/pepino.jpeg">
+                        <p class="descripciones">Pepino pepinorro de pepinolandia con sabor a pepino</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="imagenesproductos"><img class="productos" src="img/pepino.jpeg">
+                        <p class="descripciones">Pepino pepinorro de pepinolandia con sabor a pepino</p>
+                    </div>
+                </li>
+                <li> </li>
+                <div class="imagenesproductos"><img class="productos" src="img/pepino.jpeg">
+                    <p class="descripciones">Pepino pepinorro de pepinolandia con sabor a pepino</p>
+                </div>
+            </ul>
+            <div id="comocomprar">
+                <p id="titulocomprar">TU COMPRA PASO A PASO</p>
+                <ul id="instruccionescompra">
+                    <li> <img class="instrucciones" src="img/escoger.png"></li>
+                    <li> <img class="instrucciones" src="img/añadir.png"></li>
+                    <li> <img class="instrucciones" src="img/puerta.png"></li>
+                </ul>
+            </div>
+            <div id="informaciongeneral">
+                <div id="cookies">
+                    <p id="titulocookies">Cookies </p>
+                    <p id="contenidoCookies">Este sitio emplea cookies propias y de terceros para prestar sus servicios
+                        y para analizar el tráfico. Agroboca recibe información sobre tu uso de este sitio web. Si
+                        utilizas este sitio web, se sobreentiende que aceptas el uso de cookies.</p><a id="aceptar"
+                        href="">Aceptar </a><a id="MasInformacion" href="">Mas informacion</a>
+                </div>
+                <div id="pie">
+                    <ul id="principal">
+                        <li class="titulosinformacion">Informacoin general<ul class="informaciones">
+                                <li>Preguntas frecuentes</li>
+                                <li>Entregas y horarios</li>
+                                <li>Cookies</li>
+                                <li>Politica de privacidad</li>
+                            </ul>
+                        </li>
+                        <li class="titulosinformacion">Sobre nosotros<ul class="informaciones">
+                                <li>Quienes somos</li>
+                                <li>Donde encontrarnos</li>
+                                <li>Agricultura sostenible</li>
+                                <li>Nuestros campos</li>
+                            </ul>
+                        </li>
+                        <li class="titulosinformacion">Contacto<ul class="informaciones">
+                                <li>Telefono</li>
+                                <li>Email</li>
+                                <li>Whatsapp</li>
+                            </ul>
+                        </li>
+                        <li class="titulosinformacion">Legal<ul class="informaciones">
+                                <li>Aviso legal</li>
+                                <li>Denuncias o infracciones</li>
+                                <li>Servicios</li>
+                                <li>Condiciones generales de uso</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
