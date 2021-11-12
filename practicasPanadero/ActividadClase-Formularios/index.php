@@ -1,0 +1,1 @@
+<form name="formularioVideojuegos" method="get" action="ejemploGet.php"></form>
